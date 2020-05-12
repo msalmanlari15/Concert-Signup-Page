@@ -8,15 +8,14 @@ body {
   background-image: url(/img/bg.jpg);
   background-size: cover;
   height: 100vh;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
-  opacity: 0.4;
   height: 100%;
   width: 90%;
   margin: auto;
@@ -24,15 +23,113 @@ body {
 
 .intro {
   flex: 1;
-  background-color: bisque;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 60%;
 }
 
+.heading-logo-place {
+  width: 70%;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5.5rem;
+  letter-spacing: -0.5rem;
+}
+
+.heading-logo-place h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.caption {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
 .register {
   flex: 1;
-  background-color: burlywood;
   height: 60%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.form-area {
+  background-color: rgb(40, 33, 41);
+  width: 60%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.form-area form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.form-area form input {
+  height: 40px;
+  width: 70%;
+  margin: auto;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #fcebe8;
+  padding-left: 8%;
+  outline: none;
+}
+
+.form-area form input[type="submit"] {
+  width: 45%;
+  background-color: #100012;
+  color: #d1c3c1;
+  border: none;
+  cursor: pointer;
+  padding-left: 0px;
+}
+
+.name {
+  background-image: url(img/nameinput.png);
+  background-position: 7px 3px;
+  background-repeat: no-repeat;
+  background-size: 8%;
+}
+
+.email {
+  background-image: url(img/emailinput.png);
+  background-position: 7px 3px;
+  background-repeat: no-repeat;
+  background-size: 8%;
+}
+
+.nationality {
+  background-image: url(img/flaginput.png);
+  background-position: 7px 3px;
+  background-repeat: no-repeat;
+  background-size: 8%;
+}
+
+.social-area {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin: auto;
+}
+
+.social-area a img {
+  width: 40px;
+}
+
+.register h3 {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #d1c3c1;
+  font-weight: normal;
 }
