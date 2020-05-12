@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/img/bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  opacity: 0.4;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+.intro {
+  flex: 1;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60%;
+}
+
+.register {
+  flex: 1;
+  background-color: burlywood;
+  height: 60%;
+}
